@@ -1,0 +1,84 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+}
+
+header {
+  background-color: cadetblue;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 2rem;
+}
+
+header nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 2rem;
+}
+
+header nav ul li a {
+  color: azure;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+iframe {
+  width: 100%;
+  height: 100vh;
+}
+
+audio {
+  background-color: beige;
+}
+
+/* TABLE */
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: burlywood;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+/* tr {
+} */
+
+/* .rosybrown {
+  background-color: rosybrown;
+}
+
+.row-grey {
+  background-color: silver;
+} */
+
+/* CUANDO SEA HIJO IMPAR, nth numero ordinal, un hijo de orden n */
+/* Hijos impares (el elemento mismo)*/
+/* tr:nth-child(2n+1) */
+tbody tr:nth-child(odd) {
+  background-color: rosybrown;
+}
+
+/* ANOTHER WAY TO COLOUR THE ROWS  */
+/* le vamos a aplicar a los tr table row, el atributo q esta dentro, CUANDO SU ELEMENTO HIJO
+SEA PAR */
+/* CUANDO EL TR SEA UN HIJO IMPAR DE ALGO SUPERIOR Y AHI APLICA */
+/* Hijos pares (el elemento mismo)*/
+/* tr:nth-child(2n+2) */
+tbody tr:nth-child(even) {
+  background-color: silver;
+}
