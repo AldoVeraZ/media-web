@@ -82,3 +82,8 @@ SEA PAR */
 tbody tr:nth-child(even) {
   background-color: silver;
 }
+
+.map {
+  width: 600px;
+  height: 400px;
+}
